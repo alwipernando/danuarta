@@ -8,7 +8,7 @@ function openModal(service) {
 orderForm.addEventListener("submit", function (e) {
     e.preventDefault();
     const whatsappMessage = `Halo, saya ingin memesan layanan ${selectedService}.`;
-    const whatsappUrl = `https://wa.me/6285266947121?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/6285373417670?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappUrl, '_blank');
 });
 
